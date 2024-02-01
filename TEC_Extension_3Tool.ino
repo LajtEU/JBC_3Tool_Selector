@@ -15,7 +15,7 @@ digitalWrite(7, LOW);           // AN115A Relay Set default state OFF
 digitalWrite(8, LOW);           // NT115A Relay Set default state OFF
 digitalWrite(9, HIGH);          // T245 Relay Set default state ON
 
-delay(400);                     // Give time for T245 Relays to set
+delay(300);                     // Give time for T245 Relays to set
 digitalWrite(6, HIGH);          // ToolChange relay ON for default tool T245
 
 }
